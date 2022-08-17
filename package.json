@@ -4,7 +4,8 @@
   "description": "git config --global  core.editor code git config --global --edit",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
